@@ -36,7 +36,7 @@ int is_chain(info_t *info, char *buf, size_t *p)
 }
 
 /**
- * check_chain - checks if to continue chaining based on last status
+ * check_chain - checks we should continue chaining based on last status
  * @info: the parameter struct
  * @buf: the char buffer
  * @p: address of current position in buf
@@ -70,7 +70,7 @@ void check_chain(info_t *info, char *buf, size_t *p, size_t i, size_t len)
 }
 
 /**
- * replace_alias - replace aliases in the tokenized string
+ * replace_alias - replaces an aliases in the tokenized string
  * @info: the parameter struct
  *
  * Return: 1 if replaced, 0 otherwise
@@ -140,7 +140,7 @@ int replace_vars(info_t *info)
 }
 
 /**
- * replace_string - replace string
+ * replace_string - replaces string
  * @old: address of old string
  * @new: new string
  *
