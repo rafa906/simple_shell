@@ -1,2 +1,2 @@
 Simple shell project - 
-README
+README for the project
